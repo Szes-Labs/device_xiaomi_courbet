@@ -83,6 +83,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/properties/build_GLOBAL.prop:$(TARGET_COPY_OUT_RECOVERY)/root/build_GLOBAL.prop \
     $(LOCAL_PATH)/properties/build_INDIA.prop:$(TARGET_COPY_OUT_RECOVERY)/root/build_INDIA.prop
 
+# LunarisDolby
+PRODUCT_SOONG_NAMESPACES += \
+    packages/apps/LunarisDolby
+
+PRODUCT_PACKAGES += \
+    LunarisDolby
+
 # Kernel
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
