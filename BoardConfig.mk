@@ -20,6 +20,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/courbet_defconfig
+TARGET_KERNEL_CLANG_VERSION := r563880c
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
