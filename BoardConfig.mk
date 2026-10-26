@@ -48,4 +48,4 @@ VENDOR_SECURITY_PATCH := 2025-06-01
 include vendor/xiaomi/courbet/BoardConfigVendor.mk
 
 # MIUICamera
--include vendor/miuicamera-sweet/BoardConfig.mk
+-include vendor/miuicamera-courbet/BoardConfig.mk
