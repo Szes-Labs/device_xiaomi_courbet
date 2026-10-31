@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
 
+# Surface
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # GAPPS
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)

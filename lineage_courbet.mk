@@ -32,3 +32,13 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="courbet_global-user 13 RKQ1.210614.002 14.0.4.0.TKQMIXM release-keys" \
     BuildFingerprint=Xiaomi/courbet_global/courbet:13/RKQ1.210614.002/V14.0.4.0.TKQMIXM:user/release-keys
+
+# Lunaris
+WITH_GMS := true
+TARGET_CUSTOM_UDFPS := false
+WITH_GMS_COMMS_SUITE := false
+WITH_PIXEL_LAUNCHER := false
+TARGET_USE_GPHOTOS := true
+TARGET_USE_FILES := true
+SURFACE_FLINGER_BOOST := true
+TARGET_OPTIMIZED_DEXOPT := true
