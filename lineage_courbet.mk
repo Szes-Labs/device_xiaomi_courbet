@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/courbet/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Face
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # DeviceAsWebcam
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
