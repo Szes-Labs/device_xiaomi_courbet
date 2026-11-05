@@ -83,3 +83,6 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
+
+# MIUICamera
+$(call inherit-product-if-exists, vendor/miuicamera-courbet/device.mk)

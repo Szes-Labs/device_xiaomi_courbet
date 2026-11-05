@@ -52,3 +52,6 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Inherit from proprietary files
 include vendor/xiaomi/courbet/BoardConfigVendor.mk
+
+# MIUICamera
+-include vendor/miuicamera-courbet/BoardConfig.mk
