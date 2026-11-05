@@ -91,6 +91,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
 
