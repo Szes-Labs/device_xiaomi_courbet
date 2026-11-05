@@ -18,5 +18,9 @@ ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 # Fluence
 ro.vendor.audio.sdk.fluencetype=fluence
 
+# Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_location=1080|960|200|local:4630946480857061761,1080|960|200|local:4630946545580055169
+
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
