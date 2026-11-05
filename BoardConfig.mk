@@ -44,6 +44,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 # Screen density
 TARGET_SCREEN_DENSITY := 440
 
+# Soong
+SOONG_CONFIG_xiaomiSm6150Vars_livedisplay_support_anti_flicker ?= true
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
