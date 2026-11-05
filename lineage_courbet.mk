@@ -17,6 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Blur
 TARGET_ENABLE_BLUR := true
 
+# Camera
+TARGET_USES_LEICA := true
+
 PRODUCT_NAME := lineage_courbet
 PRODUCT_DEVICE := courbet
 PRODUCT_BRAND := Xiaomi
