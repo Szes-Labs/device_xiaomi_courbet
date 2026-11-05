@@ -21,6 +21,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Blur
 TARGET_ENABLE_BLUR := true
 
+# DeviceAsWebcam
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 # Camera
 TARGET_USES_LEICA := true
 
