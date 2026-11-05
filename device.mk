@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libpiex_shim
+    libpiex_shim \
+    libdng_sdk.vendor
 
 # Display
  PRODUCT_COPY_FILES += \
