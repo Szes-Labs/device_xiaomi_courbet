@@ -35,6 +35,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/courbet_global/courbet:13/TKQ1.221013.002/V14.0.4.0.TKQMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="courbet_global-user 13 TKQ1.221013.002 V14.0.4.0.TKQMIXM release-keys"
+    BuildDesc="courbet_global-user 13 RKQ1.210614.002 14.0.4.0.TKQMIXM release-keys" \
+    BuildFingerprint=Xiaomi/courbet_global/courbet:13/RKQ1.210614.002/V14.0.4.0.TKQMIXM:user/release-keys
